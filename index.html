@@ -46,6 +46,20 @@
 
 </script>
 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-50849606-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 </head>
 <body>
 
@@ -61,14 +75,14 @@
 				<div id="mc_embed_signup">
 					<form action="http://highlighterapp.us8.list-manage.com/subscribe/post?u=46b21693d5c6bcc236a40655f&amp;id=94874b3734" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 						<div class="mc-field-group" style="margin-top: 15px;">
-							<input placeholder="Email Address" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin-bottom: 10px;">
+							<input onClick="_gaq.push(['clicks', 'email']);" placeholder="Email Address" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin-bottom: 10px;">
 						</div>
 						<div id="mce-responses" class="clear">
 							<div class="response" id="mce-error-response" style="display:none"></div>
 							<div class="response" id="mce-success-response" style="display:none"></div>
 						</div>
     					<div style="position: absolute; left: -5000px;"><input type="text" name="b_46b21693d5c6bcc236a40655f_94874b3734" tabindex="-1" value=""></div>
-    					<div><input type="submit" value="Join the list" name="Join the list" id="mc-embedded-subscribe" class="btn btn-2 btn-2c add-bottom"></div>
+    					<div><input onClick="_gaq.push(['clicks', 'submit']);" type="submit" value="Join the list" name="Join the list" id="mc-embedded-subscribe" class="btn btn-2 btn-2c add-bottom"></div>
 					</form>
 				</div>
 			</div>
